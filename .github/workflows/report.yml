@@ -31,4 +31,4 @@ jobs:
         PASSWORD: ${{ secrets.Password }}
         JINJI: ${{ secrets.Jinji }}
       run: |
-        python report.py data.json "$STUID" "$PASSWORD" "$JINJI"
+        python report.py data_home.json "$STUID" "$PASSWORD" "$JINJI"
